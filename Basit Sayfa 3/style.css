@@ -1,0 +1,72 @@
+
+
+.box{
+   
+    width: 800px;
+    height: 900px;
+    border: 3px solid black;
+    margin: auto;
+    display: grid;
+    grid-template-areas: 
+     'head head head head'
+     'aside aside content content'
+     'footer footer footer footer'
+    ;
+}
+
+
+header{
+  background-color: rgb(46, 91, 241);
+  grid-area: head;
+  height: 150px;
+}
+
+aside{
+  grid-template-columns: 100px;
+  width: 400px;
+height: 600px;
+grid-area: aside;
+}
+
+.reklam-ust{
+  border: 2px solid black;
+  width: 398px;
+  height: 150px;
+  margin-top: 10px;
+  background-color: darkgreen;
+  text-align: center;
+}
+
+.reklam-alt{
+  border: 2px solid black;
+  width: 398px;
+  height: 410px;
+  margin-top: 10px;
+  background-color: rgb(46, 91, 241);
+}
+
+section{
+  grid-area: content;
+  background-color: rgb(46, 91, 241) ;
+  border: 2px solid black;
+  width: 375px;
+  height: 410px;
+  margin-top: 10px;
+}
+
+
+footer{
+  background-color:darkgreen;
+  grid-area: footer;
+  height: 150px;
+  text-align: center;
+}
+
+.sag-alt{
+  width: 375px;
+  height: 120px;
+  border: 2px solid black;
+  margin-top: 430px;
+  background-color: darkgreen;
+  text-align: center;
+}
